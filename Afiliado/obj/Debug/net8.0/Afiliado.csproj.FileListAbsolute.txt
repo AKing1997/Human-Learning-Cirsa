@@ -817,6 +817,7 @@ C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\stat
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Afiliado.props
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Afiliado.props
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\scopedcss\Components\NavMenu.razor.rz.scp.css
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\scopedcss\bundle\Afiliado.styles.css
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\scopedcss\projectbundle\Afiliado.bundle.scp.css
@@ -1029,4 +1030,3 @@ C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afil
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\refint\Afiliado.dll
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.pdb
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\ref\Afiliado.dll
-C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\scopedcss\Components\NavMenu.razor.rz.scp.css

@@ -13,16 +13,20 @@
       "PackagePath": "staticwebassets\\Afiliado.styles.css"
     },
     {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\Logo_cirsa.png",
+      "PackagePath": "staticwebassets\\Logo_cirsa.png"
+    },
+    {
       "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
       "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\fav.png",
