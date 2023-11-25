@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "P64bpCUqhLm847kWIkAN8hpfyFbkvYZfIZrtP+ds93Y=",
+  "Hash": "krJyavonI0ouYOm2gEOX1bG7aIEOdcMkIoYeLVHXq8o=",
   "Source": "Afiliado",
   "BasePath": "/",
   "Mode": "Root",
@@ -7862,6 +7862,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\fav.png",
+      "SourceId": "Afiliado",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "fav.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fav.png"
     },
     {
       "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\favicon.png",

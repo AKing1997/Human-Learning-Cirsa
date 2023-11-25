@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\fav.png",
+      "PackagePath": "staticwebassets\\fav.png"
+    },
+    {
       "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },

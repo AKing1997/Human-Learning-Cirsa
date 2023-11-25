@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Afiliado",
   "resources": {
-    "hash": "sha256-jWnnfTijK6szeabFxj07jqcI9eQSzKwfTC0dyiBqqf8=",
+    "hash": "sha256-NxG6E6gYQ0xsEkITCDb05rjO0XZOIJjovnYHbRMIvr4=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.cx60pm2snx.js": "sha256-LjLDIz9+J7uuiwMlQ4HbNx2BnSpphOtO2MwkoI28vdI="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-cDuLeL3OCtVtiid/dyex1MVgbuzDSRwZxKzuP2Dp4mg=",
       "netstandard.wasm": "sha256-A0h86SDieTMoU/wU2JTszWCsUmMuguDcbap0b0BzsmI=",
       "System.Private.CoreLib.wasm": "sha256-/0DNIm/T0C07X7Tuz5uR8JvVCoAfEE2MnfPUSjyS9xc=",
-      "Afiliado.wasm": "sha256-zlZt/xlmDoXCK6UERNfP13kkfNjqI8KWqrL9QkMnwiM="
+      "Afiliado.wasm": "sha256-tZBre0a793zqoG69X4rHYtNHpe7uPwRlWi8PyHynQb0="
     },
     "pdb": {
-      "Afiliado.pdb": "sha256-VON4+t2k53si+ZK6KGmz7J13SJ/rGGXEdd/dm36nAVQ="
+      "Afiliado.pdb": "sha256-l2ShRcByjiG+IOY5rLGbzNCnXFCJDPBwpF+loOXj2nQ="
     }
   },
   "cacheBootResources": true,
