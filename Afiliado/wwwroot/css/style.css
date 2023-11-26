@@ -77,6 +77,7 @@ a{
     margin: 10%;
 }
 
+
 /* Menor 576 */
 @media (max-width: 575px) {
     .nav-item-two {
@@ -87,6 +88,11 @@ a{
 @media (min-width: 575px) {
     .navbar-collapse {
         flex-grow: 0 !important;
+    }
+
+    .bottom-fixed {
+        position: fixed;
+        bottom: 0;
     }
 }
 /* Mayor 767 */
