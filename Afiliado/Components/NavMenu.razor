@@ -11,12 +11,16 @@
 			<ul class="navbar-nav">
 				@if (Type == 1)
 				{
-					@foreach (var item in MenuItems)
-					{
-								<li class="nav-item-two border border-warning-subtle m-1 rounded">
-							<a class="nav-link text-white" href="@item.Url">@item.Text</a>
-						</li>
-					}
+					<li class="nav-item-two border border-warning-subtle m-1 rounded">
+						<a class="nav-link text-dark" href="/Login">Login</a>
+					</li>
+				}
+
+				@if (Type == 3)
+				{
+					<li class="nav-item-two border border-warning-subtle m-1 rounded">
+						<a class="nav-link text-dark" href="/">Home</a>
+					</li>
 				}
 
 				@if (Type == 2)
@@ -32,18 +36,12 @@
 	</div>
 </nav>
 @code {
-    [Parameter]
-    public Configuracion Configuracion { get; set; } = new Configuracion();
+	[Parameter]
+	public Configuracion Configuracion { get; set; } = new Configuracion();
 
-    [Parameter]
-    public int Type { get; set; }
+	[Parameter]
+	public int Type { get; set; }
 
-	public List<NavItem> MenuItems =  new List<NavItem>
-	{
-		new NavItem { Text = "Login", Url = "/Login" },
-		new NavItem { Text = "Sign Up", Url = "/SignUp" }
-	};
-
-    [Parameter]
-    public Avatar Avatar { get; set; }
+	[Parameter]
+	public Avatar Avatar { get; set; }
 }

@@ -54,8 +54,19 @@
     color: white;
 }
 
+.gray-color {
+    background-color: #58585a;
+}
+
+a{
+    cursor: pointer;
+}
+
 /* Menor 576 */
 @media (max-width: 575px) {
+    .nav-item-two {
+        padding-left: 15px;
+    }
 }
 /* Mayor 574 */
 @media (min-width: 575px) {
