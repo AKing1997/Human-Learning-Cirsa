@@ -1,37 +1,37 @@
 # Human-Learning-Cirsa-FrontEnd
 
-## Background del Proyecto
+## Project Background
 
-Este proyecto tiene como objetivo desarrollar una página de afiliados para la multinacional líder en el sector del juego y del ocio en España y Latinoamérica. La necesidad surge de la importancia estratégica de establecer un programa de afiliados efectivo para aumentar la visibilidad y participación en el mercado.
+This project aims to develop an affiliate page for the leading multinational in the gaming and leisure sector in Spain and Latin America. The need arises from the strategic importance of establishing an effective affiliate program to increase visibility and market share.
 
 ## Usage
 
-La página de afiliados proporcionará a los usuarios la capacidad de registrarse como afiliados, acceder a herramientas de marketing y realizar un seguimiento de sus referidos y ganancias. Los afiliados podrán generar enlaces personalizados, acceder a estadísticas en tiempo real y recibir pagos según el rendimiento de sus referidos.
+The affiliate page will provide users with the ability to register as an affiliate, access marketing tools, and track their referrals and earnings. Affiliates will be able to generate custom links, access real-time statistics and receive payments based on the performance of their referrals.
 
-## Instalación
+## Installation
 
-Para instalar y ejecutar este proyecto, sigue estos pasos:
+To install and run this project, follow these steps:
 
-1. **Clona el repositorio:**
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/AKing1997/Human-Learning-Cirsa.git
 
 La aplicación estará disponible en http://localhost:5252.
 
-## Stack Utilizado
+## Stack Used
 
-- **Lenguaje de Programación:** C#
+- **Programming Language:** C#
 - **Framework:** .NET y Blazor
-- **Vistas:** HTML5
-- **Estilos:** Boststrap y CSS
+- **Views:** HTML5
+- **Styles:** Boststrap y CSS
 - **Frontend:** Bootstrap
 
-## Toma de Decisiones
-Durante el desarrollo, se tomaron decisiones fundamentales para garantizar el éxito del proyecto en un tiempo limitado:
+## Decision making
+During development, fundamental decisions were made to ensure the success of the project in a limited time:
 
-1. **Elección del Stack Tecnológico:**
-   > Se eligió C# y .NET por su robustez, seguridad y capacidad para manejar transacciones en tiempo real. Razor y Bootstrap se seleccionaron para el frontend debido a su integración fluida con .NET y su capacidad para proporcionar una experiencia de usuario atractiva.
-2. **Experiencia de Usuario:**
-   > Se priorizó la experiencia del usuario al diseñar una interfaz intuitiva y fácil de usar. Bootstrap se utilizó para asegurar que la página de afiliados sea accesible y atractiva.
+1. **Choice of Technological Stack:**
+   > C# and .NET were chosen for their robustness, security, and ability to handle real-time transactions. Razor and Bootstrap were selected for the frontend due to their seamless integration with .NET and their ability to provide an engaging user experience.
+2. **User Experience:**
+   > User experience was prioritized by designing an intuitive and easy-to-use interface. Bootstrap was used to ensure the affiliate page is accessible and attractive.
 
-Estas decisiones se tomaron con el objetivo de proporcionar una solución eficiente, maximizando la experiencia del usuario y cumpliendo con los requisitos específicos de la multinacional en un plazo limitado.
+These decisions were made with the objective of providing an efficient solution, maximizing the user experience and meeting the specific requirements of the multinational in a limited time frame.
