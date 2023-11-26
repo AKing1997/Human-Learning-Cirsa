@@ -12,8 +12,4 @@
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" PrivateAssets="all" />
 		<PackageReference Include="PublishSPAforGitHubPages.Build" Version="2.1.0" />
 	</ItemGroup>
-
-	<ItemGroup>
-		<Folder Include="StaticFiles\" />
-	</ItemGroup>
 </Project>
