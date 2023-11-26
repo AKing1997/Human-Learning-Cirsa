@@ -16,7 +16,7 @@ To install and run this project, follow these steps:
    ```bash
    git clone https://github.com/AKing1997/Human-Learning-Cirsa.git
 
-La aplicación estará disponible en http://localhost:5252.
+The application will be available in: http://localhost:5252.
 
 ## Stack Used
 
