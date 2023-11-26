@@ -69,8 +69,12 @@ a{
     -webkit-overflow-scrolling: touch;
 }
 
-.vh-75{
+.vh-75 {
     height: 75vh!important;
+}
+
+.margin-top {
+    margin: 10%;
 }
 
 /* Menor 576 */

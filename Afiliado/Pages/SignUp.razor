@@ -2,10 +2,10 @@
 @using Afiliado.Components
 
 <PageTitle>Sign Up</PageTitle>
-<NavMenu Type="@type"/>
-<div class="container-fluid mt-5 vh-75 d-flex justify-content-center align-items-center">
-	<div class="container d-flex justify-content-center">
-		<div class="row mb-3 g-0 border">
+<div class="container-fluid m-0 p-0">
+	<NavMenu Type="@type" />
+	<div class="container margin-top d-flex justify-content-center">
+		<div class="row g-0 border">
 			<div class="col-md-6">
 				<img src="./img/casino_valencia.jpg" class="img-fluid" style="height:100%; object-fit:cover;" alt="...">
 			</div>
@@ -37,7 +37,7 @@
 									Submit
 								</a>
 							</div>
-							<div class="col-md-6 mb-3">
+							<div class="col-md-6">
 								<a class="d-flex justify-content-center align-items-center gray-color text-white border link-underline link-underline-opacity-0 p-2 text-center rounded" href="Login">
 									Login
 								</a>
@@ -46,15 +46,15 @@
 					</form>
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
+	<footer class=" bg-primary-color fixed-bottom ">
+		<div class="container d-flex  align-items-center justify-content-center">
+			<p class="p-2">&copy; 2023 Human Learning: Afiliados Cirsa</p>
+		</div>
+	</footer>
 </div>
-<footer class=" bg-primary-color fixed-bottom mt-4">
-	<div class="container d-flex  align-items-center justify-content-center">
-		<p class="p-2">&copy; 2023 Human Learning: Afiliados Cirsa</p>
-	</div>
-</footer>
 @code {
 	int type = 3;
 }
