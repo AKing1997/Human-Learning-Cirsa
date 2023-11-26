@@ -37,7 +37,7 @@ During development, fundamental decisions were made to ensure the success of the
 2. **Security:**
    > Due to the short work time and project requirements, standard security practices have not been carried out, such as form validation, secure authentication and role-based authorization.
 3. **User Experience:**
-   > User experience was prioritized by designing an intuitive and easy-to-use interface. Bootstrap was used to ensure the affiliate page is accessible and attractive.
+   > User experience was prioritized by designing an intuitive and easy-to-use interface. We also wanted to maintain the essence of the official Cirsa page so that in a future implementation it does not look out of place. Bootstrap was used to ensure the affiliate page is accessible and attractive.
 
 These decisions were made with the objective of providing an efficient solution, maximizing the user experience and meeting the specific requirements of the multinational in a limited time frame.
 
