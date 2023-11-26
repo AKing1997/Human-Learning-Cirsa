@@ -21,8 +21,9 @@ La aplicación estará disponible en http://localhost:5252.
 ## Stack Utilizado
 
 - **Lenguaje de Programación:** C#
-- **Framework:** .NET
-- **Vistas:** Razor
+- **Framework:** .NET y Blazor
+- **Vistas:** HTML5
+- **Estilos:** Boststrap y CSS
 - **Frontend:** Bootstrap
 
 ## Toma de Decisiones
