@@ -1,55 +1,107 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\obj\\Debug\\net8.0\\compressed\\c4wbxjc16d.gz",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\obj\\Debug\\net8.0\\compressed\\c4wbxjc16d.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Afiliado.styles.css",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Afiliado.styles.css",
       "PackagePath": "staticwebassets\\Afiliado.styles.css"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\404.html",
+      "PackagePath": "staticwebassets\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Afiliado.png",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Afiliado.png",
       "PackagePath": "staticwebassets\\img\\Afiliado.png"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Logo_cirsa.png",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Logo_cirsa.png",
       "PackagePath": "staticwebassets\\img\\Logo_cirsa.png"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\fav.png",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Persona (10).jpeg",
+      "PackagePath": "staticwebassets\\img\\Persona (10).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Persona (2).jpg",
+      "PackagePath": "staticwebassets\\img\\Persona (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Persona (3).jpg",
+      "PackagePath": "staticwebassets\\img\\Persona (3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Persona (4).jpg",
+      "PackagePath": "staticwebassets\\img\\Persona (4).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Persona (5).jpg",
+      "PackagePath": "staticwebassets\\img\\Persona (5).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Persona (6).jpg",
+      "PackagePath": "staticwebassets\\img\\Persona (6).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Persona (7).jpg",
+      "PackagePath": "staticwebassets\\img\\Persona (7).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Persona (8).jpg",
+      "PackagePath": "staticwebassets\\img\\Persona (8).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Persona (9).jpg",
+      "PackagePath": "staticwebassets\\img\\Persona (9).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Persona.jpg",
+      "PackagePath": "staticwebassets\\img\\Persona.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\casino_valencia.jpg",
+      "PackagePath": "staticwebassets\\img\\casino_valencia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\fav.png",
       "PackagePath": "staticwebassets\\img\\fav.png"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\hero-casinos.jpg",
+      "PackagePath": "staticwebassets\\img\\hero-casinos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Kumar\\Desktop\\Nueva carpeta (2)\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
     },
     {
