@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GTinfZmGEdFujI16hdD6DWWYKOD6G7erY81iNzpFek0=",
+  "Hash": "RsthYXHLy6IKL+ZhEhKESBEzpJ3P4eeAZ4IOGV27eZo=",
   "Source": "Afiliado",
   "BasePath": "/",
   "Mode": "Root",
@@ -7826,25 +7826,6 @@
       "OriginalItemSpec": "wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.css.map",
-      "SourceId": "Afiliado",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/bootstrap/bootstrap.css.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.css.map"
-    },
-    {
       "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Afiliado",
       "SourceType": "Discovered",
@@ -7864,12 +7845,12 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\fav.png",
+      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Afiliado",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "fav.png",
+      "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7880,15 +7861,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\fav.png"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\style.css",
       "SourceId": "Afiliado",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "favicon.png",
+      "RelativePath": "css/style.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7899,15 +7880,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\icon-192.png",
+      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Afiliado.png",
       "SourceId": "Afiliado",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "icon-192.png",
+      "RelativePath": "img/Afiliado.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7918,7 +7899,45 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\icon-192.png"
+      "OriginalItemSpec": "wwwroot\\img\\Afiliado.png"
+    },
+    {
+      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\fav.png",
+      "SourceId": "Afiliado",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/fav.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fav.png"
+    },
+    {
+      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Logo_cirsa.png",
+      "SourceId": "Afiliado",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/Logo_cirsa.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Logo_cirsa.png"
     },
     {
       "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\index.html",
@@ -7940,12 +7959,12 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\Logo_cirsa.png",
+      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\js\\bootstrap.bundle.min.js",
       "SourceId": "Afiliado",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "Logo_cirsa.png",
+      "RelativePath": "js/bootstrap.bundle.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7956,15 +7975,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Logo_cirsa.png"
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\sample-data\\weather.json",
+      "Identity": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Afiliado",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
+      "RelativePath": "js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7975,7 +7994,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js.map"
     }
   ]
 }

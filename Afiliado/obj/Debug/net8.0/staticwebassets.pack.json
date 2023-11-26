@@ -13,40 +13,44 @@
       "PackagePath": "staticwebassets\\Afiliado.styles.css"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\Logo_cirsa.png",
-      "PackagePath": "staticwebassets\\Logo_cirsa.png"
-    },
-    {
       "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
-    },
-    {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.css.map"
     },
     {
       "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\fav.png",
-      "PackagePath": "staticwebassets\\fav.png"
+      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
+      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\icon-192.png",
-      "PackagePath": "staticwebassets\\icon-192.png"
+      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Afiliado.png",
+      "PackagePath": "staticwebassets\\img\\Afiliado.png"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\Logo_cirsa.png",
+      "PackagePath": "staticwebassets\\img\\Logo_cirsa.png"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\img\\fav.png",
+      "PackagePath": "staticwebassets\\img\\fav.png"
     },
     {
       "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\sample-data\\weather.json",
-      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kumar\\Desktop\\Cirsa\\Human-Learning-Cirsa\\Afiliado\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Afiliado.Microsoft.AspNetCore.StaticWebAssets.props",
