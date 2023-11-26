@@ -1,33 +1,32 @@
-name: Deploy to GitHub Pages
+name: Human Learning
 
 on:
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      - master
+
+permissions: 
+  contents: write
 
 jobs:
-  deploy-to-github-pages:
+  deploy:
+
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Setup .NET Core SDK
-        uses: actions/setup-dotnet@v3.2.0
-
-      - name: Install .NET WASM Build Tools
-        run: dotnet workload install wasm-tools
-
-      - name: Publish .NET Core Project
-        run: dotnet publish ./Afiliado/Afiliado.csproj -c Release -p:GHPages=true -o dist/Web --nologo
-
-      - name: Commit wwwroot to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@3.7.1
-        with:
-          GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: dist/Web/wwwroot
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v3.2.0
+      with:
+        dotnet-version: '7.0.x'
+    - name: Publish with dotnet
+      run: dotnet publish --configuration Release --output build
+    # changes the base-tag in index.html from '/' to 'A' to match GitHub Pages repository subdirectory
+    - name: Change base-tag in index.html from / to Afiliado
+      run: sed -i 's/<base href="\/" \/>/<base href="\/Afiliado\/" \/>/g' build/wwwroot/index.html
+    - name: Commit wwwroot to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: build/wwwroot
