@@ -42,6 +42,6 @@ During development, fundamental decisions were made to ensure the success of the
 These decisions were made with the objective of providing an efficient solution, maximizing the user experience and meeting the specific requirements of the multinational in a limited time frame.
 
 ## Team members
-- Daniel : Affiliate Login / Affiliate Register
-- Ankit  : Affiliate Dashboard / Agent Registration
-- Naiel  : Design / Homepage
+- Daniel Requena   : Affiliate Login / Affiliate Register
+- Ankit Kumar      : Affiliate Dashboard / Agent Registration
+- Naiel Fernández  : Design / Homepage
