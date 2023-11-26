@@ -139,7 +139,7 @@
 
     async Task CopiarEnlace()
     {
-        await JSRuntime.InvokeVoidAsync("navigator.clipboard.writeText", afiliateUrl);
+        await JSRuntime.InvokeVoidAsync("navigator.clipboard.writeText", urlWeb+afiliateUrl);
     }
 
     void OnColorChange(ChangeEventArgs e)
