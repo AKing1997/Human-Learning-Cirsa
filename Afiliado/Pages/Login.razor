@@ -3,49 +3,49 @@
 
 <PageTitle>Login</PageTitle>
 <NavMenu Type="@type" />
-<div class="container-fluid vh-100 d-flex align-items-center">
-	<div class="container">
-		<div class="card mb-5">
-			<div class="row g-0">
-				<div class="col-md-6">
-					<div class="card-body">
-						<h2 class="card-title text-center">Login</h2>
-						<form>
-							<div class="mb-3">
-								<label for="exampleInputEmail1" class="form-label">Email address</label>
-								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+<div class="container-fluid mt-5 vh-75 d-flex justify-content-center align-items-center">
+	<div class="container d-flex justify-content-center">
+		<div class="row mb-3 g-0 border">
+			<div class="col-md-6 p2 d-flex justify-content-center align-items-center">
+				<div class="w-100 p-3">
+					<h2 class="p-5 card-title text-center">Login</h2>
+					<form>
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						</div>
+						<div class="mb-3">
+							<label for="exampleInputPassword1" class="form-label">Password</label>
+							<input type="password" class="form-control" id="exampleInputPassword1">
+						</div>
+						<div class="row">
+							<div class="col-md-6 mb-3">
+								<a href="Dashboard" class="d-flex justify-content-center align-items-center bg-primary-color link-underline link-underline-opacity-0 text-white border p-2 text-center rounded">
+									Submit
+								</a>
 							</div>
-							<div class="mb-3">
-								<label for="exampleInputPassword1" class="form-label">Password</label>
-								<input type="password" class="form-control" id="exampleInputPassword1">
+							<div class="col-md-6 mb-3">
+								<a class="d-flex justify-content-center align-items-center gray-color text-white border link-underline link-underline-opacity-0 p-2 text-center rounded" href="SignUp">
+									Sign Up
+								</a>
 							</div>
-							<div class="row">
-								<div class="col-md-6 mb-3">
-									<a href="Dashboard" class="d-flex justify-content-center align-items-center bg-primary-color link-underline link-underline-opacity-0 text-white border p-2 text-center rounded">
-										Submit
-									</a>
-								</div>
-								<div class="col-md-6 mb-3">
-									<a class="d-flex justify-content-center align-items-center gray-color text-white border link-underline link-underline-opacity-0 p-2 text-center rounded" href="SignUp">
-										Sign Up
-									</a>
-								</div>
-							</div>
-						</form>
-					</div>
+						</div>
+					</form>
 				</div>
-				<div class="col-md-6">
-					<img src="./img/casino_valencia.jpg" class="img-fluid h-100" alt="...">
-				</div>
+			</div>
+			<div class="col-md-6">
+				<img src="./img/casino_valencia.jpg" class="img-fluid" style="height:100%; object-fit:cover;" alt="...">
 			</div>
 		</div>
 	</div>
 </div>
-<footer class=" bg-primary-color mt-4">
+
+<footer class=" bg-primary-color fixed-bottom mt-4">
 	<div class="container d-flex  align-items-center justify-content-center">
 		<p class="p-2">&copy; 2023 Human Learning: Afiliados Cirsa</p>
 	</div>
 </footer>
+
 @code {
 	int type = 3;
 }
