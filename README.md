@@ -34,7 +34,9 @@ During development, fundamental decisions were made to ensure the success of the
 
 1. **Choice of Technological Stack:**
    > C# and .NET were chosen for their robustness, security, and ability to handle real-time transactions. Razor and Bootstrap were selected for the frontend due to their seamless integration with .NET and their ability to provide an engaging user experience.
-2. **User Experience:**
+2. **Security:**
+   > Due to the short work time and project requirements, standard security practices have not been carried out, such as form validation, secure authentication and role-based authorization.
+3. **User Experience:**
    > User experience was prioritized by designing an intuitive and easy-to-use interface. Bootstrap was used to ensure the affiliate page is accessible and attractive.
 
 These decisions were made with the objective of providing an efficient solution, maximizing the user experience and meeting the specific requirements of the multinational in a limited time frame.
