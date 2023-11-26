@@ -35,3 +35,8 @@ During development, fundamental decisions were made to ensure the success of the
    > User experience was prioritized by designing an intuitive and easy-to-use interface. Bootstrap was used to ensure the affiliate page is accessible and attractive.
 
 These decisions were made with the objective of providing an efficient solution, maximizing the user experience and meeting the specific requirements of the multinational in a limited time frame.
+
+## Integrantes del Equipo
+- Daniel: Login de afiliado /  Register de afiliado
+- Ankit: Dashboard afiliado /  Register de cliente
+- Naiel: Diseño / Página de inicio
