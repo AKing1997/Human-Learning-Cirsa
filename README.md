@@ -1,4 +1,7 @@
-# Human-Learning-Cirsa-FrontEnd
+# Human Learning - Cirsa - Hackaton FrontEnd
+
+## 🌐 Website
+https://aking1997.github.io/Human-Learning-Cirsa/
 
 ## Project Background
 
@@ -36,7 +39,7 @@ During development, fundamental decisions were made to ensure the success of the
 
 These decisions were made with the objective of providing an efficient solution, maximizing the user experience and meeting the specific requirements of the multinational in a limited time frame.
 
-## Integrantes del Equipo
-- Daniel: Login de afiliado /  Register de afiliado
-- Ankit: Dashboard afiliado /  Register de cliente
-- Naiel: Diseño / Página de inicio
+## Team members
+- Daniel : Affiliate Login / Affiliate Register
+- Ankit  : Affiliate Dashboard / Agent Registration
+- Naiel  : Design / Homepage
