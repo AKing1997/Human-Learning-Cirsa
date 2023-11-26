@@ -48,7 +48,12 @@
             <select class="form-select" id="colorSelect" @onchange="OnColorChange">
                 @foreach (Colors color in ColorList.GetColors())
                 {
-                    <option value="@color.Name">@color.Name</option>
+                    @foreach (Colors color in ColorList.GetColors())
+                    {
+                        <option value="@color.Name" @(color.Name= =Configuracion.Color.Name ? "selected" : "" )>
+                            @color.Name
+                        </option>
+                    }
                 }
             </select>
         </div>
