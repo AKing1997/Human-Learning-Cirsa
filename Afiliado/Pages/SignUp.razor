@@ -1,8 +1,61 @@
 ﻿@page "/SignUp"
+@using Afiliado.Components
 
 <PageTitle>Sign Up</PageTitle>
-<h1>Sign Up</h1>
-
+<NavMenu Type="@type"/>
+<div class="container-fluid w-100 vh-100 d-flex align-items-center">
+	<div class="container">
+		<div class="card mb-5">
+			<div class="row g-0">
+				<div class="col-md-6">
+					<img src="./img/casino_valencia.jpg" class="img-fluid h-100" alt="...">
+				</div>
+				<div class="col-md-6">
+					<div class="card-body">
+						<h2 class="card-title text-center">Sign Up</h2>
+						<form>
+							<div class="row">
+								<div class="col-md-6 mb-3">
+									<label for="name" class="form-label">Name</label>
+									<input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+								</div>
+								<div class="col-md-6 mb-3">
+									<label for="exampleInputEmail1" class="form-label">Last Name</label>
+									<input type="text" class="form-control" id="lastName" aria-describedby="emailHelp">
+								</div>
+							</div>
+							<div class="mb-3">
+								<label for="exampleInputEmail1" class="form-label">Email address</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							</div>
+							<div class="mb-3">
+								<label for="exampleInputPassword1" class="form-label">Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword1">
+							</div>
+							<div class="row">
+								<div class="col-md-6 mb-3">
+									<a href="/Dashboard" class="d-flex justify-content-center align-items-center bg-primary-color link-underline link-underline-opacity-0 text-white border p-2 text-center rounded">
+										Submit
+									</a>
+								</div>
+								<div class="col-md-6 mb-3">
+									<a class="d-flex justify-content-center align-items-center gray-color text-white border link-underline link-underline-opacity-0 p-2 text-center rounded" href="/Login">
+										Login
+									</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class=" bg-primary-color mt-4">
+	<div class="container d-flex  align-items-center justify-content-center">
+		<p class="p-2">&copy; 2023 Human Learning: Afiliados Cirsa</p>
+	</div>
+</footer>
 @code {
-
+	int type = 3;
 }

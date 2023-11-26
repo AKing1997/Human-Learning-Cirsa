@@ -1,8 +1,154 @@
 ﻿@page "/Dashboard"
 @using Afiliado.Components
+@using Afiliado.Components.Dto
+@inject IJSRuntime JSRuntime
 
 <PageTitle>Dashboard</PageTitle>
-<NavMenu />
-@code {
+<NavMenu Type="@type" Avatar="@avatar" Configuracion="@Configuracion"/>
 
+<div class="container mt-4">
+    <div class="bg-dark align-items-center p-2">
+        <h3 class="p-3 text-white">Affiliate url</h3>
+        <p class="w-auto m-2 p-2 bg-white d-flex justify-content-between align-items-center text-white" style="--bs-bg-opacity: .5;">
+            <span>@urlWeb@afiliateUrl</span>
+        <button type="button" class="btn btn-dark" @onclick="CopiarEnlace">
+            <i class="bi bi-copy"></i>
+        </button>    
+        </p>
+    </div>
+
+    <div class="@Configuracion.Color.CssClass mt-4 p-2">
+        <h3 class="p-3 text-white">Configuration</h3>
+         <div class="p-3 pt-0 row align-items-start">
+            <div class="col">
+                <label for="profileImg" class="form-label text-white">Profile Image</label>
+                <input type="text" class="form-control" id="profileImg" @bind="@avatar.AvatarUrl" />
+            </div>
+
+            <div class="col">
+                <label for="name" class="form-label text-white">Name</label>
+                <input type="text" class="form-control" id="name" @bind="@avatar.Name" />
+            </div>
+        </div>
+
+        <div class="p-3 pt-0 row align-items-start">
+            <div class="col">
+                <label for="afiliateUrl" class="form-label text-white">Afiliate Url</label>
+                <input type="text" class="form-control" id="afiliateUrl" @bind="@afiliateUrl" />
+            </div>
+
+            <div class="col">
+                <label for="logoUrl" class="form-label text-white">Logo URL</label>
+                <input type="text" class="form-control" id="logoUrl" @bind="@Configuracion.Logo" />
+            </div>
+        </div>
+        
+        <div class="mb-3 p-3 pt-0">
+            <label for="colorSelect" class="form-label text-white">Select Color</label>
+            <select class="form-select" id="colorSelect" @onchange="OnColorChange">
+                @foreach (Colors color in ColorList.GetColors())
+                {
+                    <option value="@color.Name">@color.Name</option>
+                }
+            </select>
+        </div>
+    </div>
+
+    <div class="mt-3 pt-0">
+        <div class="row mb-3 g-0 gap-2">
+            <div class="@Configuracion.Color.CssClass col p-2">
+                <h5>Total profit</h5>
+                <p class="fs-1 fw-bold text-center">@afiliadosSumaTotal €</p>
+            </div>
+
+            <div class="@Configuracion.Color.CssClass col p-2">
+                <h5>All agents</h5>
+                <div class="list-group overflow-y-scroll ">
+                    @foreach (Afiliado item in Afiliados)
+                    {
+                        <a class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1"><img class="rounded-circle" src="@item.Img" width="40" height="40" style="object-fit:cover" /> @item.Username</h5>
+                                <small class="text-body-secondary">@item.FechaRegistro.ToString("dd-MM-yyyy")</small>
+                            </div>
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-0 gap-2">
+            <div class="@Configuracion.Color.CssClass col p-2">
+                <h5>Latests agents</h5>
+                <div class="list-group list-group">
+                    @foreach (Afiliado item in AfiliadosGastos)
+                    {
+                        <a class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1"><img class="rounded-circle" src="@item.Img" width="40" height="40" style="object-fit:cover" /> @item.Username</h5>
+                                <small class="text-body-secondary">@item.FechaRegistro.ToString("dd-MM-yyyy")</small>
+                            </div>
+                        </a>
+                    }
+                </div>
+            </div>
+
+            <div class="@Configuracion.Color.CssClass col p-2">
+                <h5>Top contributed agents</h5>
+                <div class="list-group overflow-y-scroll ">
+                    @foreach (Afiliado item in AfiliadosGanancia)
+                    {
+                        <a class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1"><img class="rounded-circle" src="@item.Img" width="40" height="40" style="object-fit:cover" /> @item.Username</h5>
+                                <small class="text-body-secondary">@item.FechaRegistro.ToString("dd-MM-yyyy")</small>
+                            </div>
+                            <p class="mb-1">Wined: @item.Ganancia</p>
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<footer class="@Configuracion.Color.CssClass mt-4">
+    <div class="container d-flex  align-items-center justify-content-center">
+        <p class="p-2">&copy; 2023 Human Learning: Afiliados Cirsa</p>
+    </div>
+</footer>
+
+@code {
+    List<Afiliado> Afiliados = AfiliadoList.GetAfiliados();
+    List<Afiliado> AfiliadosGastos = AfiliadoList.OrdenarPorGastosDeMayorAMenor();
+    List<Afiliado> AfiliadosGanancia = AfiliadoList.OrdenarPorGananciaDeMayorAMenor();
+    List<Afiliado> AfiliadosFecha = AfiliadoList.OrdenarPorFechaDeRegistroMasNuevos();
+    decimal afiliadosSumaTotal = AfiliadoList.CalcularSumaTotalGanancias();
+
+    public Configuracion Configuracion { get; set; } = new Configuracion()
+        {
+            Color = ColorList.GetColors().Where(c => c.Name.Equals("Purple")).First()
+        };
+
+    int type = 2;
+    string urlWeb = "https://aking1997.github.io/Human-Learning-Cirsa/Agents/";
+    string afiliateUrl = "David2023";
+
+    async Task CopiarEnlace()
+    {
+        await JSRuntime.InvokeVoidAsync("navigator.clipboard.writeText", afiliateUrl);
+    }
+
+    void OnColorChange(ChangeEventArgs e)
+    {
+       var selectedColorName = e.Value.ToString();
+       Configuracion.Color = ColorList.GetColors().FirstOrDefault(c => c.Name == selectedColorName);
+    }
+
+    Avatar avatar = new Avatar()
+        {
+            AvatarUrl = "./img/Afiliado.png",
+            Name = "David Martinez",
+            ImageStyle = "width:50px;height:50px"
+        };
 }

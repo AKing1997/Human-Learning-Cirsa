@@ -1,10 +1,52 @@
-﻿<nav class="navbar bg-primary-color">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="/Logo_cirsa.png" alt="Logo" height="40" class="d-inline-block align-text-top">
-        </a>
-    </div>
-</nav>
+﻿@using Afiliado.Components.Dto
+<nav class="navbar navbar-expand-lg @Configuracion.Color.CssClass">
+	<div class="container d-flex justify-content-between">
+		<a class="navbar-brand" href="#">
+			<img src="@Configuracion.Logo" height="40" />
+		</a>
 
+		@if (Type < 4)
+		{
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		}
+
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				@if (Type == 1)
+				{
+					<li class="nav-item-two border border-warning-subtle m-1 rounded">
+						<a class="nav-link text-dark" href="/Login">Login</a>
+					</li>
+				}
+
+				@if (Type == 3)
+				{
+					<li class="nav-item-two border border-warning-subtle m-1 rounded">
+						<a class="nav-link text-dark" href="/">Home</a>
+					</li>
+				}
+
+				@if (Type == 2)
+				{
+					<li class="nav-item-two">
+						<a class="nav-link">
+							<img src="@Avatar.AvatarUrl" alt="@Avatar.Name" style="@Avatar.ImageStyle" class="rounded-circle"> <span class="text-white">@Avatar.Name</span>
+						</a>
+					</li>
+				}
+			</ul>
+		</div>
+	</div>
+</nav>
 @code {
+	[Parameter]
+	public Configuracion Configuracion { get; set; } = new Configuracion();
+
+	[Parameter]
+	public int Type { get; set; }
+
+	[Parameter]
+	public Avatar Avatar { get; set; }
 }

@@ -1,5 +1,62 @@
 ﻿@page "/"
+@using Afiliado.Components;
 
 <PageTitle>Home</PageTitle>
+<NavMenu Type="@type" />
+<div class="container-fluid w-100 m-0 p-0">
+    <img src="./img/hero-casinos.jpg" alt="Imagen Horizontal" class="w-100" />
+    <div class="container mt-3 p-4">
+        <div class="text-center">
+            <h2 class="p-2">Join our affiliate program!</h2>
+            <p class="p-2">Join us and get exclusive rewards!</p>
+            <a href="SignUp">
+                <button class="btn btn-outline-warning btn-lg">Access Afiliate Platform</button>
+            </a>
+        </div>
+        <div class ="text-center mt-5">
+            <h2 class ="p-5">Join the Program in Four Easy Steps</h2>
+            <div class="row">
+                <div class="col-sm  border m-2">
+                    <h5 class="p-3">Instant sign up</h5>
+                    <p>
+                        Sign up in less than a minute. Completely free.
+                        Get verified and gain access to your affiliate dashboard.
+                    </p>
+                </div>
+                <div class="col-sm border m-2">
+                    <h5 class="p-3">Track your performance</h5>
+                    <p>
+                        Access one of the best affiliate control panels in the industry.
+                        Easily track and optimize your campaigns.
+                    </p>
+                </div>
+                <div class="col-sm border m-2">
+                    <h5 class="p-3">Use Affiliate Banners</h5>
+                    <p>
+                        Never be empty handed. Marketing materials in one place, tailored to your style.
+                    </p>
+                </div>
+                <div class="col-sm border m-2">
+                    <h5 class="p-3">Get your payout</h5>
+                    <p>
+                        We share revenue fairly. Every eligible sale made earns you at least 60% commissions.
+                        And that's just the start.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <footer class="bg-primary-color  ">
+        <div class="container d-flex  align-items-center justify-content-center">
+            <p class="p-2">&copy; 2023 Human Learning: Afiliados Cirsa</p>
+        </div>
+    </footer>
+</div>
 
-<h1>Hello, world!</h1>
+
+
+
+@code {
+    int type = 1;
+}
