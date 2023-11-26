@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Afiliado",
   "resources": {
-    "hash": "sha256-zVkFUH6gIdBeDMwXFt9HkJwVUFTm2db1Zb/Yv5jqPMs=",
+    "hash": "sha256-v4n71ONaIVDBDkvcdp/tq56r3iJ/BVZVYXpRKR+D9UQ=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.gxmsnfy8nu.js": "sha256-8su0dfqXmrR6nSS80nF/thphOx+y1Myj7Zbp7+5wV3Y="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "Afiliado.wasm": "sha256-sOjU+kqSuknWfNfcReYcWm2yFdFesOvz9G2eX158eig=",
+      "Afiliado.wasm": "sha256-Qk3ayAWA0edJXhdZSbtSmo5vbI0qAPpvpj7RZYyjCwc=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-FTDgpIkBpCHhh9YPzOmEEoY2gYs76r/ZwPYBpVDb6mc=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-RNAqR0ff+baVaIhI+uEcLo9eT+pxGnBEvkCzqD+3roM=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-Ws5szf6fWPAXna+XyWsAhavx+WDFcA/91DQ7iPRPCMs=",
