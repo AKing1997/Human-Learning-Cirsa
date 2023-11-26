@@ -1,0 +1,77 @@
+﻿:root {
+    --primary-bg-color: #DCBE68;
+    --dark-bg-color: 26, 23, 27;
+}
+
+
+/* Estilos para los colores */
+.bg-primary-color {
+    background-color: var(--primary-bg-color);
+}
+
+.bg-dark-color-tans {
+    background-color: rgba(var(--dark-bg-color),.8);
+    color: white;
+}
+
+.red-color {
+    background-color: #FF0000;
+    color: white;
+}
+
+.green-color {
+    background-color: #00FF00;
+    color: black;
+}
+
+.blue-color {
+    background-color: #0000FF;
+    color: white;
+}
+
+.yellow-color {
+    background-color: #FFFF00;
+    color: black;
+}
+
+.orange-color {
+    background-color: #FFA500;
+    color: white;
+}
+
+.purple-color {
+    background-color: #800080;
+    color: white;
+}
+
+.cyan-color {
+    background-color: #00FFFF;
+    color: black;
+}
+
+.magenta-color {
+    background-color: #FF00FF;
+    color: white;
+}
+
+/* Menor 576 */
+@media (max-width: 575px) {
+}
+/* Mayor 574 */
+@media (min-width: 575px) {
+    .navbar-collapse {
+        flex-grow: 0 !important;
+    }
+}
+/* Mayor 767 */
+@media (min-width: 768px) {
+}
+/* Mayor 991 */
+@media (min-width: 992px) {
+}
+/* Mayor 1199 */
+@media (min-width: 1200px) {
+}
+/* Mayor 1399 */
+@media (min-width: 1400px) {
+}

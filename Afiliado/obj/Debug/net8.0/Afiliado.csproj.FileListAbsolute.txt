@@ -1,3 +1,10 @@
+C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.csproj.AssemblyReference.cache
+C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.AssemblyInfoInputs.cache
+C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.AssemblyInfo.cs
+C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.csproj.CoreCompileInputs.cache
+C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.sourcelink.json
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\bin\Debug\net8.0\wwwroot\_framework\Afiliado.pdb
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\bin\Debug\net8.0\wwwroot\_framework\Afiliado.wasm
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
@@ -609,13 +616,6 @@ C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\bin\Debug\net8.0\dotn
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\bin\Debug\net8.0\icudt_CJK.dat
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\bin\Debug\net8.0\icudt_EFIGS.dat
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\bin\Debug\net8.0\icudt_no_CJK.dat
-C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.csproj.AssemblyReference.cache
-C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.AssemblyInfoInputs.cache
-C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.AssemblyInfo.cs
-C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.csproj.CoreCompileInputs.cache
-C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\Afiliado.sourcelink.json
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 C:\Users\Kumar\Desktop\Cirsa\Human-Learning-Cirsa\Afiliado\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
