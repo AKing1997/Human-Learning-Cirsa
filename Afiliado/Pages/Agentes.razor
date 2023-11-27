@@ -4,61 +4,60 @@
 
 <PageTitle>Agents - to support @Afiliado</PageTitle>
 
-	<NavMenu Type="@type" Configuracion="@Configuracion" />
-	<div class="container-fluid w-100 vh-100 d-flex align-items-center">
-		<div class="container">
-			<div class="card mb-5">
-				<div class="row g-0">
-					<div class="col-md-6">
-						<img src="./img/casino_valencia.jpg" class="img-fluid h-100" alt="...">
-					</div>
-					<div class="col-md-6">
-						<div class="card-body">
-							<h2 class="card-title text-center">Sign Up</h2>
-							<form>
-								<div class="row">
-									<div class="col-md-12 mb-3">
-										<label for="afiliafo" class="form-label">To support</label>
-										<input type="text" class="form-control" id="afiliado" value="@Afiliado" disabled>
-									</div>
-									<div class="col-md-6 mb-3">
-										<label for="name" class="form-label">Name</label>
-										<input type="text" class="form-control" id="name" aria-describedby="emailHelp">
-									</div>
-									<div class="col-md-6 mb-3">
-										<label for="exampleInputEmail1" class="form-label">Last Name</label>
-										<input type="text" class="form-control" id="lastName" aria-describedby="emailHelp">
-									</div>
+	<div class="container-fluid m-0 p-0">
+		<NavMenu Type="@type" Configuracion="@Configuracion" />
+		<div class="container margin-top d-flex justify-content-center">
+			<div class="row mb-3 g-0 border">
+				<div class="col-md-6">
+					<img src="./img/casino_valencia.jpg" class="img-fluid" style="height:100%; object-fit:cover;" alt="...">
+				</div>
+				<div class="col-md-6 p2 d-flex justify-content-center align-items-center">
+					<div class="w-100 p-3">
+						<h2 class="card-title text-center">Sign Up</h2>
+						<form>
+							<div class="row">
+								<div class="col-md-12 mb-3">
+									<label for="afiliafo" class="form-label">To support</label>
+									<input type="text" class="form-control" id="afiliado" value="@Afiliado" disabled>
 								</div>
-								<div class="mb-3">
-									<label for="exampleInputEmail1" class="form-label">Email address</label>
-									<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+								<div class="col-md-6 mb-3">
+									<label for="name" class="form-label">Name</label>
+									<input type="text" class="form-control" id="name" aria-describedby="emailHelp">
 								</div>
-								<div class="mb-3">
-									<label for="exampleInputPassword1" class="form-label">Password</label>
-									<input type="password" class="form-control" id="exampleInputPassword1">
+								<div class="col-md-6 mb-3">
+									<label for="exampleInputEmail1" class="form-label">Last Name</label>
+									<input type="text" class="form-control" id="lastName" aria-describedby="emailHelp">
 								</div>
-								<div class="row">
-									<div class="col-md-6 mb-3">
-										<a class="d-flex justify-content-center align-items-center @Configuracion.Color.CssClass link-underline link-underline-opacity-0 text-white border p-2 text-center rounded">
-											Submit
-										</a>
-									</div>
+							</div>
+							<div class="mb-3">
+								<label for="exampleInputEmail1" class="form-label">Email address</label>
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							</div>
+							<div class="mb-3">
+								<label for="exampleInputPassword1" class="form-label">Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword1">
+							</div>
+							<div class="row">
+								<div class="col-md-6 mb-3">
+									<a class="d-flex justify-content-center align-items-center @Configuracion.Color.CssClass link-underline link-underline-opacity-0 text-white border p-2 text-center rounded">
+										Submit
+									</a>
 								</div>
-							</form>
-						</div>
+							</div>
+						</form>
 					</div>
 				</div>
+
 			</div>
 		</div>
+		<footer class="w-100 @Configuracion.Color.CssClass bottom-fixed">
+			<div class="container d-flex  align-items-center justify-content-center">
+				<p class="p-2">&copy; 2023 Human Learning: Afiliados Cirsa</p>
+			</div>
+		</footer>
 	</div>
-	<footer class="@Configuracion.Color.CssClass mt-4">
-		<div class="container d-flex  align-items-center justify-content-center">
-			<p class="p-2">&copy; 2023 Human Learning: Afiliados Cirsa</p>
-		</div>
-	</footer>
 
-@code {
+	@code {
 	int type = 4;
 
 	public Configuracion Configuracion { get; set; } = new Configuracion()
