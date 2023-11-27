@@ -11,6 +11,48 @@ This project aims to develop an affiliate page for the leading multinational in 
 
 The affiliate page will provide users with the ability to register as an affiliate, access marketing tools, and track their referrals and earnings. Affiliates will be able to generate custom links, access real-time statistics and receive payments based on the performance of their referrals.
 
+
+# User Manuel
+### Desktop View
+Home Desktop
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/ebf03ae7-78ec-48bb-86be-75b96b794393)
+
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/b8e78501-1d5f-4a69-b9ea-9af4140b85ff)
+
+Sign Up
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/5b11af9c-17ac-4440-ba43-f1993c55a1cc)
+Login
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/7f90d167-4f01-434f-911a-01f791edc058)
+Dashboard
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/f61e8a35-8ed1-4e0b-a68a-a4bbe1468465)
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/e3f29210-db42-4991-bdfb-ab2037708d09)
+
+Agents/SignUp
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/91e20653-d3c1-48ca-8444-a86d8ba507e7)
+
+### Movil View
+Home Desktop
+
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/55896cf6-5ee9-44e0-888b-a12644ad636d) ![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/38e4471a-2bb3-484f-9a4c-242ba7c005b1)
+
+
+Sign Up
+
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/1205694a-51e0-46ca-892f-3f0d2164f40e)
+
+Login
+
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/9096ec6e-2708-413c-a1cb-69dd6ab8c302)
+
+Dashboard
+
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/6db0c0e9-e314-4188-aa0e-4825fbe55246) ![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/85f302e1-4ce5-421b-90d4-0c26b5368f37) ![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/4d1be37a-a2e6-439f-82d0-058f74b7e078)
+
+Agents/SignUp
+
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/45168df7-6a8e-4aeb-a099-c8c1961dc185)
+
+
 ## Installation
 
 To install and run this project, follow these steps:
