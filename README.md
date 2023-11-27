@@ -11,30 +11,51 @@ This project aims to develop an affiliate page for the leading multinational in 
 
 The affiliate page will provide users with the ability to register as an affiliate, access marketing tools, and track their referrals and earnings. Affiliates will be able to generate custom links, access real-time statistics and receive payments based on the performance of their referrals.
 
+## User Guide
 
-# User Manuel
 ### Desktop View
-Home Desktop
-![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/ebf03ae7-78ec-48bb-86be-75b96b794393)
+Home Page:
+>This is the home page, where you are encouraged to sign up as an affiliate by clicking the "Access Affiliate Platform" button. If you are already registered, you can click "Login" at the top right.
 
-![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/b8e78501-1d5f-4a69-b9ea-9af4140b85ff)
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91561216/ce4867fa-31a4-43d9-bfd9-c45fd607a087)
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91561216/81f93ccf-55cf-45c1-8586-3ae3b0c6a1bb)
 
-Sign Up
-![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/5b11af9c-17ac-4440-ba43-f1993c55a1cc)
-Login
-![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/7f90d167-4f01-434f-911a-01f791edc058)
-Dashboard
-![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/f61e8a35-8ed1-4e0b-a68a-a4bbe1468465)
-![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/e3f29210-db42-4991-bdfb-ab2037708d09)
+SignUp:
+>On the registration screen we see a few fields to fill out, once we click "Submit" it will redirect us to our affiliate page, if we have an account we can access login using the "Login" button. We can also return to the home page by pressing "Home" in the NavBar.
 
-Agents/SignUp
-![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/91e20653-d3c1-48ca-8444-a86d8ba507e7)
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91561216/9ff39ced-3144-4b41-8a50-f206435f7a01)
+
+Login:
+>On the login screen we see a few fields to fill out, once we click "Submit" it will redirect us to our affiliate page, if we have an account we can access signup using the "SignUp" button. We can also return to the home page by pressing "Home" in the NavBar.
+
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91561216/f896d8c4-c14f-4b00-aeb5-7883677f5ec9)
+
+Dashboard:
+>Default:
+
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91561216/08c0f29a-c894-401b-a0c4-83ccf97a20b8)
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91561216/5bbc63f2-38f7-4e6e-a8d7-d5089aa5b9b9)
+>Custom:
+
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91561216/353b3c3c-975e-4040-ac1c-1cf755456aa8)
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91561216/277e06a7-9873-4f4a-882f-ee11973bf5a5)
+>On the affiliate page we have several sections.
+Starting from top to bottom we have a link to invite people to support us when they enter the application. We continue with the configuration section, where we can modify the profile image, name, affiliate code, logo at the top left and the color of the elements. Finally, we find four sections where statistics such as total profit, a list of all agents, a list of the last agents to join and another list of the agents who have contributed the most appear.
+
+Afiliate Invitation:
+>When we copy the affiliate link and open it in another tab, a record will appear with the affiliate configuration. In this record we see the code of the person we support.
+
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91561216/498c4aa5-8a2d-4b83-82ad-8c34679c48bb)
+
+Additional features:
+>Apart from all this we wanted to add the Cirsa apple as an icon for all the tabs.
+
+![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91561216/1f71a512-6a0a-48b7-a0a1-0d0e553f75f5)
 
 ### Movil View
-Home Desktop
+Home
 
 ![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/55896cf6-5ee9-44e0-888b-a12644ad636d) ![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/38e4471a-2bb3-484f-9a4c-242ba7c005b1)
-
 
 Sign Up
 
@@ -51,7 +72,6 @@ Dashboard
 Agents/SignUp
 
 ![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/45168df7-6a8e-4aeb-a099-c8c1961dc185)
-
 
 ## Installation
 
