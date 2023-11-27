@@ -3,17 +3,17 @@
 ## 🌐 Website
 https://aking1997.github.io/Human-Learning-Cirsa/
 
-## Project Background
+## 🗺️ Project Background
 
 This project aims to develop an affiliate page for the leading multinational in the gaming and leisure sector in Spain and Latin America. The need arises from the strategic importance of establishing an effective affiliate program to increase visibility and market share.
 
-## Usage
+## 💡 Usage
 
 The affiliate page will provide users with the ability to register as an affiliate, access marketing tools, and track their referrals and earnings. Affiliates will be able to generate custom links, access real-time statistics and receive payments based on the performance of their referrals.
 
-## User Guide
+## 📚 User Guide
 
-### Desktop View
+### 🖥️ Desktop View
 Home Page:
 >This is the home page, where you are encouraged to sign up as an affiliate by clicking the "Access Affiliate Platform" button. If you are already registered, you can click "Login" at the top right.
 
@@ -52,7 +52,7 @@ Additional features:
 
 ![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91561216/1f71a512-6a0a-48b7-a0a1-0d0e553f75f5)
 
-### Movil View
+### 📱 Movil View
 Home
 
 ![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/55896cf6-5ee9-44e0-888b-a12644ad636d) ![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/38e4471a-2bb3-484f-9a4c-242ba7c005b1)
@@ -73,7 +73,7 @@ Agents/SignUp
 
 ![image](https://github.com/AKing1997/Human-Learning-Cirsa/assets/91979162/45168df7-6a8e-4aeb-a099-c8c1961dc185)
 
-## Installation
+## 📖 Installation
 
 To install and run this project, follow these steps:
 
@@ -83,7 +83,7 @@ To install and run this project, follow these steps:
 
 The application will be available in: http://localhost:5252.
 
-## Stack Used
+## 🔍 Stack Used
 
 - **Programming Language:** C#
 - **Framework:** .NET y Blazor
@@ -91,7 +91,7 @@ The application will be available in: http://localhost:5252.
 - **Styles:** Boststrap y CSS
 - **Frontend:** Bootstrap
 
-## Decision making
+## 🎲	 Decision making
 During development, fundamental decisions were made to ensure the success of the project in a limited time:
 
 1. **Choice of Technological Stack:**
@@ -103,7 +103,7 @@ During development, fundamental decisions were made to ensure the success of the
 
 These decisions were made with the objective of providing an efficient solution, maximizing the user experience and meeting the specific requirements of the multinational in a limited time frame.
 
-## Team members
+## 👤👤👤 Team members
 - Daniel Requena   : Affiliate Login / Affiliate Register
 - Ankit Kumar      : Affiliate Dashboard / Agent Registration
 - Naiel Fernández  : Design / Homepage
